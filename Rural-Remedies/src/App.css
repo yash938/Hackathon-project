@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Philosopher", sans-serif;
+    overflow-x: hidden;
+
+}
+
+.btn a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(49, 129, 49);
+}
+.btn a:hover {
+    color: white;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.search {
+    margin-right: 20px;
+}
+.btn {
+    width: 150px;
+} 
+
+
+.nav-link {
+    position: relative; /* Add position relative to the nav-link */
+  }
+  .nav-bg{
+    background-color: #2C7865;
+  }
+  .nav-link::after {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 6px; /* Adjust position to be just below the link */
+    transition: width 0.5s ease; /* Changed transition property */
+  }
+  
+  .nav-link:hover::after {
+    width: 100%; /* Change the width to fill the container */
+  }
+  
+  .search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    overflow: hidden;
+    margin: 0;
+  }
+   
+  .section2 {
+    width: 40%;
+  }
+/* login page css start */ 
+
+/* .Log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 254, 255);
+
+}
+
+.login-container {
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px 3px #3498db, inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-header {
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-header h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #3498db;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1), inset 0px 1px 3px rgba(255, 255, 255, 0.5);
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+  }
+  .singup-section {
+    display: flex;
+    padding: 10px;
+    font-weight: 600
+   }
+   .singup-section a {
+    margin-left: 20px;
+   } */
+
+  /* login page css end */
+
+  /* singup page css start */ 
+/* 
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .sign-main {
+           display: flex;
+           justify-content: center;
+           width: 100vw;
+           height: 100vh;  
+           background-image: url("../src/assets/sign-background.jpg");
+           padding: 20px;
+        }
+
+        .sign-container {
+            width: 40%;
+            height: 100%;
+            background-color: #324e6951;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 5px 5px 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 2px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        label {
+            color: white;
+        }
+        .contact-input {
+           background-color: #333;
+           border: none;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        #specialty_section {
+            display: none;
+        }
+ */
+
+  /* singup page css end */
+ .Nav-title {
+    display: none;
+ }
+
+  @media (max-width: 700px) {
+    .search button {
+        width: 130px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    .search {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Log{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75vh;
+        background-color: rgb(251, 254, 255);
+    
+    }
+    .login-container {
+        width: 300px;
+        height: 300px;
+        }
+    .Nav-title {
+        display: flex;
+       color: green;
+       margin-right: 65px;
+    }
+
+    .sign-container {
+        width: 90vw;
+        height: 90vh;
+        margin: 20px auto;
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-toggler {
+        background-color: white;
+    }
+    
+  }

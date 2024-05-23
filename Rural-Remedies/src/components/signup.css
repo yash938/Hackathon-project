@@ -1,0 +1,107 @@
+.sign-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+   
+}
+.sign-container {
+    display: flex;
+    width: 70%;
+    height: 90%;
+    background-color: rgb(210, 218, 224);
+    border-radius: 10px;
+}
+.sign-left {
+    width: 50%;
+    height: 100%;
+   
+}
+  
+.sign-right {
+    width: 50%;
+    height: 100%;
+   
+    align-items: center;
+}
+.sign-form {
+    position: relative;
+    top: 40px;
+}
+.form-group {
+    margin: 20px;
+}
+.form-group input {
+   margin-left: 20px;
+   border-bottom: 2px solid black;
+   width: 300px;
+}
+
+  
+  .sign-form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1.5rem 1rem;
+    width: 400px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  
+  .sign-form input {
+    outline: none;
+    padding: 0.4rem 0.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .sign-form input:focus {
+    border: 1.8px solid #1877f2;
+  }
+  
+  .sign-form .sign {
+    outline: none;
+    border: none;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  
+  .sign-form .sign:hover {
+    background: #0f71f1;
+    cursor: pointer;
+  }
+  
+  .sign-form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 0.8rem;
+    color: #1877f2;
+  }
+  
+ .sign-form hr {
+    background: #f7f7f7;
+    margin: 0.5rem;
+  }
+  
+  .sign-form .create-account {
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .sign-form .create-account:hover {
+    background: #03ad06;
+    cursor: pointer;
+  }
+ 
